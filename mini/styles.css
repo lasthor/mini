@@ -1,0 +1,126 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body,html{
+    height: 100%;
+}
+
+.imag1 {
+    background-image: url(./images/imag1.jpg);
+    background-size: 152px;
+    width: 150px;
+    height: 200px;
+    }
+    .imag2
+    {
+    background-image: url(./images/imag2.jpg);
+    background-size: 152px;
+    width: 150px;
+    height: 200px;
+   margin: 30px 0px;
+
+    }
+    .imag3
+    {
+    background-image: url(./images/imag3.jpg);
+    background-size: 152px;
+    width: 150px;
+    height: 200px;
+    
+    }
+    .imag4
+    {
+    background-image: url(./images/imag4.jpg);
+    background-size: 152px;
+    width: 150px;
+    height: 200px;
+    margin: 30px 0px;
+    
+    }
+   .seco
+    {
+       display: flex;
+       width: 24%;
+       position: relative;
+       top: 2rem;
+       left: 60rem;
+       
+   }
+
+    .img
+    {
+       border-radius: 20px;
+       transition: 0.6s;
+    }
+    .img:hover
+    {
+       transform: translateY(-15px)
+    }
+    .mainsec
+    {
+       
+        background: linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.452)),url(./images/background.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+    .title
+    {
+        width: 15%;
+        height: 50px;
+        position: relative;
+        left: 9rem;
+        top: 25rem;
+      
+        
+    }
+    .div2
+{
+    margin-left: 12px;
+    width: 50%;
+}
+nav
+{
+    width: 30%;
+    position: relative;
+    left: 32%;
+    height: 70px;
+}
+#hhh
+{  
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.041));
+}
+a{
+    text-decoration: none;
+    color: beige;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.logo h1
+{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+}
+.s1
+{
+    color: rgba(253, 106, 61, 0.87);
+}
+.s2
+{
+    color: rgb(24, 185, 45);
+}
+.gogo
+{
+    transition: 0.5s;
+}
+.gogo:hover
+{
+    border-bottom: 2px solid rgba(255, 0, 0, 0.774); 
+}
